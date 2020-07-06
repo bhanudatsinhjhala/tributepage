@@ -1,0 +1,60 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 6 Jul, 2020, 6:07:18 PM
+    Author     : FORAM JHALA
+*/
+
+#main{
+  background-color: #ececec;
+}
+#title{
+  text-align: center;
+  padding-top: 30px;
+  font-size: 30px;
+}
+#sub-title{
+  text-align: center;
+  font-size: 15px;
+}
+#img-div{
+  margin-right: 10px;
+  margin-left: 10px;
+  text-align: center;
+  background-color: white;
+}
+#img-div > img{
+  max-width: 100%;
+}
+#img-caption{
+  fon-tsize: 1rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+#tribute-info{
+  align-item: center;
+  max-width: 500px;
+  margin: auto;
+}
+#tribute-info > h2{
+  text-align: center;
+  margin: 2rem 0 0 6rem;
+}
+#tribute-info > ul >  li{
+  margin: 1.1rem 0;
+}
+#tribute-info >  ul{
+  margin: 3rem 0;
+}
+.small{
+  margin: 1rem 0 0 2rem;
+}
+.hard{
+  font-size: 1.1rem;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
