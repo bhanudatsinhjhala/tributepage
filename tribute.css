@@ -7,7 +7,9 @@ and open the template in the editor.
     Created on : 6 Jul, 2020, 6:07:18 PM
     Author     : FORAM JHALA
 */
-
+body{
+  margin: auto;
+}
 #main{
   background-color: #ececec;
 }
@@ -30,31 +32,52 @@ and open the template in the editor.
   max-width: 100%;
 }
 #img-caption{
-  fon-tsize: 1rem;
+  font-size: 15px;
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 20px;
 }
 #tribute-info{
-  align-item: center;
   max-width: 500px;
   margin: auto;
 }
-#tribute-info > h2{
+#tribute-info > h4{
   text-align: center;
-  margin: 2rem 0 0 6rem;
+  margin: 20px 0px 0px 70px;
 }
 #tribute-info > ul >  li{
-  margin: 1.1rem 0;
+  margin: 11px 0;
+  font-size: 18px;
 }
 #tribute-info >  ul{
-  margin: 3rem 0;
+  margin: 30px 0;
 }
 .small{
-  margin: 1rem 0 0 2rem;
+  margin: 10px 0 0 20px;
+  font-size: 18px;
 }
 .hard{
-  font-size: 1.1rem;
+  font-size: 18px;
   text-align: center;
   font-weight: bold;
-  margin-bottom: 2rem;
+  margin: 20px 0px 0px 20px;
+}
+
+@media(max-width:767px){
+  #tribute-info > h4{
+    font-size: 14px;
+    margin: 20px 0px 0px 30px;
+  }
+  #img-caption{
+    font-size: 12px;
+  }
+  .hard{
+    font-size: 12px;
+  }
+  .small{
+    font-size: 12px;
+    margin-left: 35px;
+  }
+  #tribute-info > ul > li{
+    font-size: 12px;
+  }
 }
